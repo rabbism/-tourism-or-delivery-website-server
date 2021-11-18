@@ -34,11 +34,11 @@ function App() {
             <Home></Home>
             <Footer></Footer>
           </Route>
-          <Route path='/services'>
+          <PrivetRouter path='/services'>
             <Header></Header>
             <Services></Services>
             <Footer></Footer>
-          </Route>
+          </PrivetRouter>
           <Route exact path='/explor'>
               <AminNav></AminNav>
               <Explor></Explor>
@@ -59,11 +59,11 @@ function App() {
             <AminNav></AminNav>
             <AddProduct></AddProduct>
           </Route>       
-          <Route path='/about'>
+          <PrivetRouter path='/about'>
           <Header></Header>
             <About></About>
             <Footer></Footer>
-          </Route>
+          </PrivetRouter>
           <PrivetRouter exact path='/admin'>
             <AminNav></AminNav>
             <Admin></Admin>

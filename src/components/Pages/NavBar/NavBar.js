@@ -27,7 +27,9 @@ const NavBar = () => {
           <Link class="nav-link" to="/about">About</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/order">My Order</Link>
+          {
+            user?.email && <Link class="nav-link" to="/order">My Order</Link>
+          }
         </li>
         <li class="nav-item">
           <Link class="nav-link" to="/admin">Admin</Link>

@@ -1,14 +1,14 @@
 import React from 'react';
-import doctor from '../../../Tevily/brand-one-2.png'
-import Extra from '../../../Tevily/brand-one-3.png';
-import doctor2 from '../../../Tevily/brand-one-5.png'
+import doctor from '../../../Tevily/banner-3.jpg'
+
+import doctor2 from '../../../Tevily/about-banner.png'
 
 const About = () => {
     return (
         <div className="mt-5 container">
             <div className='d-flex m-5'> 
                 <div className='w-50 p-4'>
-                <img className='img-fluid rounded' src={doctor} alt="" />
+                <img className='img-fluid rounded' src={doctor2} alt="" />
                 </div>
                 <div className='w-50 p-4'>
                     <h5 className='text-primary'>About Us</h5>
@@ -40,7 +40,7 @@ const About = () => {
                     <button className='btn btn-primary'>Learn More Health</button>
                 </div>
                 <div className='w-50 p-4'>
-                   <img className='img-fluid rounded' src={doctor2} alt="" />
+                   <img className='img-fluid rounded' src={doctor} alt="" />
                 </div>
 
                 <div>

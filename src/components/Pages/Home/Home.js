@@ -3,6 +3,7 @@ import EndBanner from '../EndBanner/EndBanner';
 import Services from '../Services/Services';
 import Suppot from '../Suppot/Suppot';
 import TopBanner from './../TopBanner/TopBanner';
+import './Home.css'
 
 const Home = () => {
     return (
