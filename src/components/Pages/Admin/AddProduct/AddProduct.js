@@ -17,7 +17,7 @@ const AddProduct = () => {
     }
     return (
         <div className='style-form w-50 m-auto'>
-            <h2>commin soon</h2>
+            <h2 className='text-center'>Please Add You Service</h2>
             <form onSubmit={handleSubmit(onSubmit)} className='pt-5'>
                 <input {...register("name")} placeholder='Enter your Product Name' className='form-control mb-3' />
                 <input type='number' {...register("price")} placeholder='Product Price' className='form-control mb-3' />

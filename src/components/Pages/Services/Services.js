@@ -10,13 +10,21 @@ const Services = () => {
         .then(data => setServices(data))
     },[])
     return (
-        <div class="row row-cols-1 row-cols-md-3 g-4 container">
-           
-               {
+      <div>
+          {
+              services.length ===0 ? <div class="d-flex justify-content-center">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>:
+            <div class="row row-cols-1 row-cols-md-3 g-4 container">
+            {
                    services.map(service => <Service service={service}></Service>)
-               }
-           
+            }
         </div>
+          }
+            
+      </div>
     );
 };
 
