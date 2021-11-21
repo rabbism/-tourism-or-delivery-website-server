@@ -5,7 +5,7 @@ import './EndBanner.css'
 const EndBanner = () => {
     return (
         <div>
-            <div className='fw-bolder text-center m-4'>
+            <div className='fw-bolder text-center m-4 img-fluid'>
                 <h2>Go <span className='all'>Exotic</span>
                  Places</h2>
                  <h4>Please Your Trip with Travely</h4>
